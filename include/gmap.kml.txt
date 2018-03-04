@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>G Medel Map</name>
+    <description/>
+    <Style id="poly-F57C00-4001-173-normal">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>4.001</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ad007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F57C00-4001-173-highlight">
+      <LineStyle>
+        <color>ff007cf5</color>
+        <width>6.0015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>ad007cf5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F57C00-4001-173">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F57C00-4001-173-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F57C00-4001-173-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Layer 1</name>
+      <Placemark>
+        <name>Medel Area</name>
+        <description>Area of Medel</description>
+        <styleUrl>#poly-F57C00-4001-173</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                5.4355716,51.9200527,0
+                5.4382754,51.918597,0
+                5.4417515,51.9170088,0
+                5.4458714,51.9147852,0
+                5.4490471,51.9120321,0
+                5.4514503,51.9085375,0
+                5.4544544,51.904619,0
+                5.4712772,51.908458,0
+                5.4681873,51.9122439,0
+                5.4677582,51.9152617,0
+                5.4719209,51.917697,0
+                5.4707193,51.9223025,0
+                5.4687881,51.9227789,0
+                5.4675865,51.9234141,0
+                5.4647541,51.9237846,0
+                5.4633808,51.9236788,0
+                5.4621792,51.9235729,0
+                5.4608917,51.9239964,0
+                5.4599476,51.9240758,0
+                5.4591751,51.9238376,0
+                5.4585314,51.9228319,0
+                5.456686,51.9225672,0
+                5.4559565,51.9227789,0
+                5.4540253,51.9227789,0
+                5.453167,51.9226201,0
+                5.4494762,51.9217467,0
+                5.44909,51.921085,0
+                5.4470301,51.9204762,0
+                5.4463005,51.9204762,0
+                5.4438972,51.9214026,0
+                5.440979,51.920688,0
+                5.4370737,51.9208203,0
+                5.436151,51.9205689,0
+                5.4355716,51.9200527,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Naamloze laag</name>
+    </Folder>
+  </Document>
+</kml>
